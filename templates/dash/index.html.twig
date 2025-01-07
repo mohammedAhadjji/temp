@@ -83,7 +83,7 @@
                 margin-left: 0;
             }
             .chart-container {
-                height: 300px; /* Ajuster la hauteur pour les petits écrans */
+                height: 300px; 
             }
         }
     </style>
@@ -396,7 +396,7 @@
             }
 
             // Créer les en-têtes du CSV
-            const headers = ["Date et Heure", "Température (°C)", "Humidité (%)"];
+            const headers = ["Date et Heure", "Temperature (°C)", "Humidite (%)"];
             const rows = filteredData.map(row => [
                 new Date(row.dt).toLocaleString(), // Date et heure
                 row.temp, // Température
