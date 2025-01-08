@@ -15,7 +15,7 @@ Voici les étapes pour cloner le projet, utiliser Docker Compose, et importer un
    ```
 4. **Entrez dans le dossier du projet :**
    ```bash
-   cd temp.git
+   cd temp
    ```
 
 ---
